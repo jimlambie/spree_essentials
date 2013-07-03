@@ -1,4 +1,4 @@
-Image.class_eval do
+Spree::Image.class_eval do
 
   def has_alt?
     !alt.blank?
